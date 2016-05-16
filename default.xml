@@ -8,18 +8,18 @@
 		remote="github"
 		sync-j="4"/>
 
-	<!-- CreatorKit repositories -->
 	<project path="build" name="CreatorKit/build" revision="master"/>
-	<project path="docs/creator_docs" name="CreatorKit/creator_docs" revision="master"/>
-	<project path="packages/flow_button_gateway" name="CreatorKit/flow_button_gateway" revision="master"/>
-	<project path="packages/flow_button_sensor" name="CreatorKit/flow_button_sensor" revision="master"/>
-	<project path="packages/flow_device_manager" name="CreatorKit/flow_device_manager" revision="master"/>
-	<project path="packages/flow_led_actuator" name="CreatorKit/flow_led_actuator" revision="master"/>
-	<!-- FlowM2M repositories -->
-	<project path="constrained-os/contiki" name="FlowM2M/contiki" revision="3.0-imgsystems"/>
-	<project path="dist/openwrt" name="FlowM2M/openwrt" revision="master-pistachio"/>
-	<project path="dist/openwrt-img-feeds" name="FlowM2M/openwrt-img-feeds" revision="master"/>
-	<project path="dist/openwrt-pkg-feeds" name="FlowM2M/openwrt-pkg-feeds" revision="master"/>
-	<project path="packages/AwaLWM2M" name="FlowM2M/AwaLWM2M" revision="master"/>
-	<project path="packages/u-boot" name="FlowM2M/u-boot" revision="master"/>
+	<project path="packages/AwaLWM2M" name="FlowM2M/AwaLWM2M" revision="refs/tags/0.1.7"/>
+	<!-- Constrained device repositories -->
+	<project path="constrained-os/contiki" name="IMGCreator/contiki" revision="3.0-mikro-e"/>
+	<project path="packages/button-sensor" name="CreatorKit/button-sensor" revision="master"/>
+	<project path="packages/led-actuator" name="CreatorKit/led-actuator" revision="master"/>
+	<project path="packages/libobjects" name="CreatorKit/libobjects" revision="master"/>
+	<!-- Ci40 gateway repositories -->
+	<project path="dist/openwrt" name="IMGCreator/openwrt" revision="master-pistachio"/>
+	<project path="dist/openwrt-ckt-feeds" name="CreatorKit/openwrt-ckt-feeds" revision="master"/>
+	<project path="dist/openwrt-feeds" name="IMGCreator/openwrt-feeds" revision="master"/>
+	<project path="packages/button-gateway" name="CreatorKit/button-gateway" revision="master"/>
+	<project path="packages/device-manager" name="CreatorKit/device-manager" revision="master"/>
+	<project path="packages/webscripts" name="CreatorKit/webscripts" revision="master"/>
 </manifest>
