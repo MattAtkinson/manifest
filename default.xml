@@ -9,17 +9,15 @@
 		sync-j="4"/>
 
 	<project path="build" name="CreatorKit/build" revision="master"/>
-	<project path="packages/AwaLWM2M" name="FlowM2M/AwaLWM2M" revision="refs/tags/0.1.7"/>
+	<project path="packages/AwaLWM2M" name="FlowM2M/AwaLWM2M" revision="refs/tags/0.1.10"/>
 	<!-- Constrained device repositories -->
-	<project path="constrained-os/contiki" name="IMGCreator/contiki" revision="3.0-mikro-e"/>
+	<project path="constrained-os/contiki" name="CreatorDev/contiki" revision="3.0-mikro-e"/>
 	<project path="packages/button-sensor" name="CreatorKit/button-sensor" revision="master"/>
-	<project path="packages/led-actuator" name="CreatorKit/led-actuator" revision="master"/>
 	<project path="packages/libobjects" name="CreatorKit/libobjects" revision="master"/>
 	<!-- Ci40 gateway repositories -->
-	<project path="dist/openwrt" name="IMGCreator/openwrt" revision="master-pistachio"/>
+	<project path="dist/openwrt" name="CreatorDev/openwrt" revision="master-pistachio"/>
 	<project path="dist/openwrt-ckt-feeds" name="CreatorKit/openwrt-ckt-feeds" revision="master"/>
-	<project path="dist/openwrt-feeds" name="IMGCreator/openwrt-feeds" revision="master"/>
-	<project path="packages/button-gateway" name="CreatorKit/button-gateway" revision="master"/>
+	<project path="dist/openwrt-feeds" name="CreatorDev/openwrt-feeds" revision="master"/>
 	<project path="packages/device-manager" name="CreatorKit/device-manager" revision="master"/>
 	<project path="packages/led-controller" name="CreatorKit/led-controller" revision="master"/>
 	<project path="packages/webscripts" name="CreatorKit/webscripts" revision="master"/>
