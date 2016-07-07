@@ -19,6 +19,6 @@
 	<project path="dist/openwrt-ckt-feeds" name="CreatorKit/openwrt-ckt-feeds" revision="master"/>
 	<project path="dist/openwrt-feeds" name="CreatorDev/openwrt-feeds" revision="master"/>
 	<project path="packages/device-manager" name="CreatorKit/device-manager" revision="master"/>
-	<project path="packages/led-controller" name="CreatorKit/led-controller" revision="master"/>
+	<project path="packages/button-led-controller" name="CreatorKit/button-led-controller" revision="master"/>
 	<project path="packages/webscripts" name="CreatorKit/webscripts" revision="master"/>
 </manifest>

@@ -8,18 +8,17 @@
 		remote="github"
 		sync-j="4"/>
 
-	<project path="build" name="CreatorKit/build" revision="refs/tags/0.9.0"/>
+	<project path="build" name="CreatorKit/build" revision="refs/tags/0.9.1"/>
 	<project path="packages/AwaLWM2M" name="FlowM2M/AwaLWM2M" revision="refs/tags/0.1.7"/>
 	<!-- Constrained device repositories -->
-	<project path="constrained-os/contiki" name="IMGCreator/contiki" revision="refs/tags/0.9.0"/>
-	<project path="packages/button-sensor" name="CreatorKit/button-sensor" revision="refs/tags/0.9.0"/>
-	<project path="packages/led-actuator" name="CreatorKit/led-actuator" revision="refs/tags/0.9.0"/>
+	<project path="constrained-os/contiki" name="CreatorDev/contiki" revision="refs/tags/0.9.1"/>
+	<project path="packages/button-sensor" name="CreatorKit/button-sensor" revision="refs/tags/0.9.1"/>
 	<project path="packages/libobjects" name="CreatorKit/libobjects" revision="refs/tags/0.9.0"/>
 	<!-- Ci40 gateway repositories -->
-	<project path="dist/openwrt" name="IMGCreator/openwrt" revision="refs/tags/0.9.0"/>
-	<project path="dist/openwrt-ckt-feeds" name="CreatorKit/openwrt-ckt-feeds" revision="refs/tags/0.9.0"/>
-	<project path="dist/openwrt-feeds" name="IMGCreator/openwrt-feeds" revision="refs/tags/0.9.0"/>
-	<project path="packages/button-gateway" name="CreatorKit/button-gateway" revision="refs/tags/0.9.0"/>
+	<project path="dist/openwrt" name="CreatorDev/openwrt" revision="refs/tags/0.9.1"/>
+	<project path="dist/openwrt-ckt-feeds" name="CreatorKit/openwrt-ckt-feeds" revision="refs/tags/0.9.1"/>
+	<project path="dist/openwrt-feeds" name="CreatorDev/openwrt-feeds" revision="refs/tags/0.9.1"/>
 	<project path="packages/device-manager" name="CreatorKit/device-manager" revision="refs/tags/0.9.0"/>
-	<project path="packages/webscripts" name="CreatorKit/webscripts" revision="refs/tags/0.9.0"/>
+	<project path="packages/button-led-controller" name="CreatorKit/button-led-controller" revision="refs/tags/0.9.1"/>
+	<project path="packages/webscripts" name="CreatorKit/webscripts" revision="refs/tags/0.9.1"/>
 </manifest>
