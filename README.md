@@ -30,8 +30,10 @@ After above steps, your directory structure would be like:
 └── packages
     ├── AwaLWM2M
     ├── button-sensor
+    ├── motion-sensor
     ├── device-manager
     ├── button-led-controller
+    ├── motion-led-controller
     ├── libobjects
     └── webscripts
 ```
