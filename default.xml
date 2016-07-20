@@ -13,12 +13,14 @@
 	<!-- Constrained device repositories -->
 	<project path="constrained-os/contiki" name="CreatorDev/contiki" revision="3.0-mikro-e"/>
 	<project path="packages/button-sensor" name="CreatorKit/button-sensor" revision="master"/>
+	<project path="packages/motion-sensor" name="CreatorKit/motion-sensor" revision="master"/>
 	<project path="packages/libobjects" name="CreatorKit/libobjects" revision="master"/>
 	<!-- Ci40 gateway repositories -->
 	<project path="dist/openwrt" name="CreatorDev/openwrt" revision="master-pistachio"/>
 	<project path="dist/openwrt-ckt-feeds" name="CreatorKit/openwrt-ckt-feeds" revision="master"/>
 	<project path="dist/openwrt-feeds" name="CreatorDev/openwrt-feeds" revision="master"/>
-	<project path="packages/device-manager" name="CreatorKit/device-manager" revision="master"/>
 	<project path="packages/button-led-controller" name="CreatorKit/button-led-controller" revision="master"/>
+	<project path="packages/motion-led-controller" name="CreatorKit/motion-led-controller" revision="master"/>
+	<project path="packages/device-manager" name="CreatorKit/device-manager" revision="master"/>
 	<project path="packages/webscripts" name="CreatorKit/webscripts" revision="master"/>
 </manifest>

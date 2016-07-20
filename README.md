@@ -18,7 +18,8 @@ After above steps, your directory structure would be like:
 │   ├── openwrt
 │   ├── openwrt-ckt-feeds
 |   |       ├── device-manager
-|   |       ├── led-controller
+|   |       ├── button-led-controller
+|   |       ├── motion-led-controller
 |   |       └── webscripts
 │   └── openwrt-feeds
 |   |       ├── awalwm2m
@@ -30,8 +31,10 @@ After above steps, your directory structure would be like:
 └── packages
     ├── AwaLWM2M
     ├── button-sensor
+    ├── motion-sensor
     ├── device-manager
-    ├── led-controller
+    ├── button-led-controller
+    ├── motion-led-controller
     ├── libobjects
     └── webscripts
 ```
