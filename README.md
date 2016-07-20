@@ -57,4 +57,3 @@ This repository contains two different manifest files :-
     Above will build the latest release for you. For building any other release use :-
     
         repo init -u https://github.com/CreatorKit/manifest.git -b <release_tag> -m creator-release.xml
-```
