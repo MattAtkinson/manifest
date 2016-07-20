@@ -18,7 +18,8 @@ After above steps, your directory structure would be like:
 │   ├── openwrt
 │   ├── openwrt-ckt-feeds
 |   |       ├── device-manager
-|   |       ├── led-controller
+|   |       ├── button-led-controller
+|   |       ├── motion-led-controller
 |   |       └── webscripts
 │   └── openwrt-feeds
 |   |       ├── awalwm2m
@@ -30,8 +31,10 @@ After above steps, your directory structure would be like:
 └── packages
     ├── AwaLWM2M
     ├── button-sensor
+    ├── motion-sensor
     ├── device-manager
-    ├── led-controller
+    ├── button-led-controller
+    ├── motion-led-controller
     ├── libobjects
     └── webscripts
 ```
@@ -54,3 +57,4 @@ This repository contains two different manifest files :-
     Above will build the latest release for you. For building any other release use :-
     
         repo init -u https://github.com/CreatorKit/manifest.git -b <release_tag> -m creator-release.xml
+```
