@@ -21,6 +21,7 @@
 	<project path="dist/openwrt-feeds" name="CreatorDev/openwrt-feeds" revision="dev"/>
 	<project path="packages/button-led-controller" name="CreatorKit/button-led-controller" revision="dev"/>
 	<project path="packages/motion-led-controller" name="CreatorKit/motion-led-controller" revision="dev"/>
+	<project path="packages/relay-gateway" name="CreatorKit/relay-gateway" revision="dev"/>
 	<project path="packages/device-manager" name="CreatorKit/device-manager" revision="dev"/>
 	<project path="packages/webscripts" name="CreatorKit/webscripts" revision="dev"/>
 </manifest>
