@@ -19,13 +19,19 @@ After above steps, your directory structure would be like:
 │   ├── openwrt-ckt-feeds
 |   |       ├── device-manager
 |   |       ├── button-led-controller
+|   |       ├── motion-led-controller
+|   |       ├── relay-gateway
 |   |       └── webscripts
 │   └── openwrt-feeds
 |   |       ├── awalwm2m
+|   |       ├── board-test
 |   |       ├── ca8210
 |   |       ├── cgilua
 |   |       ├── click-apps
 |   |       ├── fping
+|   |       ├── glog
+|   |       ├── letmecreate
+|   |       ├── proddata
 |   |       └── u-boot
 └── packages
     ├── AwaLWM2M
