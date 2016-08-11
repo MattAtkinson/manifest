@@ -35,6 +35,7 @@ After above steps, your directory structure would be like:
     ├── device-manager
     ├── button-led-controller
     ├── motion-led-controller
+    ├── relay-gateway
     ├── libobjects
     └── webscripts
 ```
