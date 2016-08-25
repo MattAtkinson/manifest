@@ -9,7 +9,7 @@
 		sync-j="4"/>
 
 	<project path="build" name="CreatorKit/build" revision="master"/>
-	<project path="packages/AwaLWM2M" name="FlowM2M/AwaLWM2M" revision="refs/tags/0.1.10"/>
+	<project path="packages/AwaLWM2M" name="FlowM2M/AwaLWM2M" revision="refs/tags/0.2.1"/>
 	<!-- Constrained device repositories -->
 	<project path="constrained-os/contiki" name="CreatorDev/contiki" revision="3.0-mikro-e"/>
 	<project path="packages/button-sensor" name="CreatorKit/button-sensor" revision="master"/>
