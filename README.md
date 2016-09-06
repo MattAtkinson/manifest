@@ -17,11 +17,9 @@ After above steps, your directory structure would be like:
 ├── dist
 │   ├── openwrt
 │   ├── openwrt-ckt-feeds
-|   |       ├── device-manager
 |   |       ├── button-led-controller
 |   |       ├── motion-led-controller
-|   |       ├── relay-gateway
-|   |       └── webscripts
+|   |       └── relay-gateway
 │   └── openwrt-feeds
 |   |       ├── awalwm2m
 |   |       ├── board-test
@@ -37,12 +35,10 @@ After above steps, your directory structure would be like:
     ├── AwaLWM2M
     ├── button-sensor
     ├── motion-sensor
-    ├── device-manager
     ├── button-led-controller
     ├── motion-led-controller
     ├── relay-gateway
-    ├── libobjects
-    └── webscripts
+    └── libobjects
 ```
 
 #### Contents
