@@ -24,12 +24,10 @@ After above steps, your directory structure would be like:
 |   |       ├── awalwm2m
 |   |       ├── board-test
 |   |       ├── ca8210
-|   |       ├── cgilua
-|   |       ├── click-apps
 |   |       ├── fping
 |   |       ├── glog
-|   |       ├── letmecreate
 |   |       ├── proddata
+|   |       ├── totd
 |   |       └── u-boot
 └── packages
     ├── AwaLWM2M
