@@ -12,6 +12,8 @@ After above steps, your directory structure would be like:
 ```
 .
 ├── build
+|── tools
+|   └── creator-docker
 ├── constrained-os
 │   └── contiki
 ├── dist
