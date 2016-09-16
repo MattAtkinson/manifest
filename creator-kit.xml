@@ -28,4 +28,5 @@
 	<project path="packages/button-led-controller" name="button-led-controller"/>
 	<project path="packages/motion-led-controller" name="motion-led-controller"/>
 	<project path="packages/relay-gateway" name="relay-gateway"/>
+	<project path="packages/u-boot" remote="CreatorDev" name="u-boot" revision="master-pistachio"/>
 </manifest>

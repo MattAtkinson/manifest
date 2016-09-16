@@ -38,5 +38,6 @@ After above steps, your directory structure would be like:
     ├── button-led-controller
     ├── motion-led-controller
     ├── relay-gateway
-    └── libobjects
+    ├── libobjects
+    └── u-boot
 ```
