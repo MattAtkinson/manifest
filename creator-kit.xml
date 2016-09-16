@@ -1,1 +1,30 @@
-default.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<notice>Your sources have been sync'd successfully for Creator Kits.</notice>
+	<remote name="CreatorKit"
+		fetch="https://github.com/CreatorKit"/>
+	<remote name="CreatorDev"
+		fetch="https://github.com/CreatorDev"/>
+	<remote name="FlowM2M"
+		fetch="https://github.com/FlowM2M"/>
+
+	<default remote="CreatorKit" revision="master" sync-j="4"/>
+
+	<!-- Tools repositories -->
+	<project path="build" name="build"/>
+
+	<!-- Constrained device repositories -->
+	<project path="constrained-os/contiki" remote="CreatorDev" name="contiki" revision="3.0-mikro-e"/>
+	<project path="packages/AwaLWM2M" remote="FlowM2M" name="AwaLWM2M" revision="refs/tags/0.2.1"/>
+	<project path="packages/button-sensor" name="button-sensor"/>
+	<project path="packages/motion-sensor" name="motion-sensor"/>
+	<project path="packages/libobjects" name="libobjects"/>
+
+	<!-- Ci40 gateway repositories -->
+	<project path="dist/openwrt" remote="CreatorDev" name="openwrt" revision="master-pistachio"/>
+	<project path="dist/openwrt-ckt-feeds" name="openwrt-ckt-feeds"/>
+	<project path="dist/openwrt-feeds" remote="CreatorDev" name="openwrt-feeds"/>
+	<project path="packages/button-led-controller" name="button-led-controller"/>
+	<project path="packages/motion-led-controller" name="motion-led-controller"/>
+	<project path="packages/relay-gateway" name="relay-gateway"/>
+</manifest>
