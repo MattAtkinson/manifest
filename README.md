@@ -12,6 +12,8 @@ After above steps, your directory structure would be like:
 ```
 .
 ├── build
+|── tools
+|   └── creator-docker
 ├── constrained-os
 │   └── contiki
 ├── dist
@@ -36,7 +38,8 @@ After above steps, your directory structure would be like:
     ├── button-led-controller
     ├── motion-led-controller
     ├── relay-gateway
-    └── libobjects
+    ├── libobjects
+    └── u-boot
 ```
 
 #### Contents
