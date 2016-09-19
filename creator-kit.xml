@@ -12,6 +12,7 @@
 
 	<!-- Tools repositories -->
 	<project path="build" name="build"/>
+	<project path="tools/creator-docker" remote="CreatorDev" name="creator-docker" revision="master" />
 
 	<!-- Constrained device repositories -->
 	<project path="constrained-os/contiki" remote="CreatorDev" name="contiki" revision="3.0-mikro-e"/>
@@ -27,4 +28,5 @@
 	<project path="packages/button-led-controller" name="button-led-controller"/>
 	<project path="packages/motion-led-controller" name="motion-led-controller"/>
 	<project path="packages/relay-gateway" name="relay-gateway"/>
+	<project path="packages/u-boot" remote="CreatorDev" name="u-boot" revision="master-pistachio"/>
 </manifest>
