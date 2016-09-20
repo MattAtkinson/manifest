@@ -22,7 +22,7 @@ After above steps, your directory structure would be like:
 |   |       ├── button-led-controller
 |   |       ├── motion-led-controller
 |   |       └── relay-gateway
-│   └── openwrt-feeds
+│   └── Ci40-platform-feed
 |   |       ├── awalwm2m
 |   |       ├── board-test
 |   |       ├── ca8210
