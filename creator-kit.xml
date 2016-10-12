@@ -22,11 +22,11 @@
 	<project path="packages/libobjects" name="libobjects"/>
 
 	<!-- Ci40 gateway repositories -->
-	<project path="dist/openwrt" remote="CreatorDev" name="openwrt" revision="master-pistachio"/>
+	<project path="dist/openwrt" remote="CreatorDev" name="openwrt" revision="creator"/>
 	<project path="dist/openwrt-ckt-feeds" name="openwrt-ckt-feeds"/>
 	<project path="dist/Ci40-platform-feed" remote="CreatorDev" name="Ci40-platform-feed"/>
 	<project path="packages/button-led-controller" name="button-led-controller"/>
 	<project path="packages/motion-led-controller" name="motion-led-controller"/>
 	<project path="packages/relay-gateway" name="relay-gateway"/>
-	<project path="packages/u-boot" remote="CreatorDev" name="u-boot" revision="master-pistachio"/>
+	<project path="packages/u-boot" remote="CreatorDev" name="u-boot" revision="2015.10"/>
 </manifest>
