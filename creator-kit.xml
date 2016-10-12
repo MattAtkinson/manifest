@@ -15,7 +15,7 @@
 	<project path="tools/creator-docker" remote="CreatorDev" name="creator-docker" revision="master" />
 
 	<!-- Constrained device repositories -->
-	<project path="constrained-os/contiki" remote="CreatorDev" name="contiki" revision="3.0-mikro-e"/>
+	<project path="constrained-os/contiki" remote="CreatorDev" name="contiki" revision="creator"/>
 	<project path="packages/AwaLWM2M" remote="FlowM2M" name="AwaLWM2M" revision="refs/tags/0.2.1"/>
 	<project path="packages/button-sensor" name="button-sensor"/>
 	<project path="packages/motion-sensor" name="motion-sensor"/>
